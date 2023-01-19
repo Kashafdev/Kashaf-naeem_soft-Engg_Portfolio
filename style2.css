@@ -1,0 +1,135 @@
+/* Write CSS Here */
+* 
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Trirong", serif; 
+  background:rgb(176, 221, 248);
+}
+nav {
+  font-size: 120%;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img{
+  width: 250px;
+  height:80px;
+}
+ 
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+ 
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+ 
+nav ul li a:hover {
+  color: red;
+}
+.container {
+    position: relative;
+    width: 90%;
+    height: 560px;
+    padding-top: 24px;
+  }
+  .div_01 {
+    width: 50%;
+    padding-top: 3%;
+    float: left;
+    overflow: hidden;
+  }
+  .div_01 img {
+    height: 150%;
+    width: 80%;
+    padding: 50px;
+  }
+  .div_02 {
+    width: 50%;
+    float: left;
+    padding-top: 8%;
+  }
+  .div_02 h1 {
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(0, 28, 85);
+    margin-bottom: 20px;
+    font-family:"Trirong", serif;
+  }
+  .div_02 h2 {
+   color: cornflowerblue;
+   font-family:"Trirong", serif;
+  }
+ h3{
+  font-family:"Trirong", serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(0, 28, 85)
+ }
+  .container_1
+  {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 300px;
+  background: none;
+  margin: 70px;
+  display: grid;
+  grid-template-columns: 0.9fr 2fr;
+  padding-left: 15%;
+  
+  
+  }
+  .container_1 .left_side
+  {
+  position: relative;
+  background: transparent;
+  padding: 20px;
+  padding-top: 0px;
+  
+  }
+  .container_1 .left_side img {
+ padding-top: 30%;
+  } 
+ .container_1 .right_side
+{
+  margin: 20px;
+position: relative;
+background:transparent;
+padding: 20px;
+}
+.container_1 .right_side h1{
+  padding-top: 0px;
+  font-family:"Trirong", serif;
+  color: rgb(0, 28, 85); 
+}
+
+.container_1 .right_side p
+{
+  font-size:20px;
+  font-family:"Trirong", serif;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+.button {
+  background-color: cadetblue;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 7px 8px;
+  font-family:"Trirong", serif;
+  color: rgb(0, 28, 85);
+  font-weight: bold;
+}

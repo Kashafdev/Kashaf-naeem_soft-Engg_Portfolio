@@ -1,0 +1,85 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Trirong", serif; 
+  background:rgb(176, 221, 248);
+}
+/* Style for Hading*/
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+}
+  nav 
+  {
+  font-size: 120%;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px ;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img{
+    width: 250px;
+    height:80px;
+
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: red;
+}
+.container {
+    position: relative;
+    width: 90%;
+    height: 560px;
+    padding-top: 24px;
+  }
+  .div_pro {
+    width: 50%;
+    padding-top: 3%;
+    float: left;
+    overflow: hidden;
+  }
+  .div_pro img {
+    height: 150%;
+    width: 80%;
+    padding: 50px;
+  }
+  .div_pro1 {
+    width: 50%;
+    float: left;
+    padding-top: 8%;
+  }
+  .div_pro1 h2 {
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(0, 28, 85);
+    margin-bottom: 20px;
+    font-family:"Trirong", serif;
+  }
+ 
+  .div_pro1 h3 {
+    color: cornflowerblue;
+    font-family:"Trirong", serif;
+    font-weight:bold;
+    font-size: 23px;
+   }
+ button{
+    background-color: rgb(0, 28, 85) ;
+    text-decoration:none;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    margin: 4px 2px;
+  
+  }
